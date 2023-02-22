@@ -53,8 +53,8 @@
                     <h4>2D/3D</h4>
                 </div>
                 <div class="time">
-                    <h4 onclick="location.href ='Page7-1-1.html';">13:30</h4>
-                    <h4 onclick="location.href ='Page7-1-2.html';">16:30</h4>
+                    <h4 onclick="location.href ='Page7-1-1.php';">13:30</h4>
+                    <h4 onclick="location.href ='Page7-1-2.php';">16:30</h4>
                 </div>
                 
 </body>

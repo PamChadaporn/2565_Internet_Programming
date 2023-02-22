@@ -193,7 +193,7 @@
                 <img class="seat-image" src="../Assets/sofa sweet.png" alt="Sofa Seat">
               </div>
               <p class="showtime">160บาท&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;180บาท</p>
-              <button class="confirm-button" onclick="location.href ='Page8-2.html';">Confirm Seat</button>
+              <button class="confirm-button" onclick="location.href ='Page8-2.php';">Confirm Seat</button>
         </div>
     </div>
   </body>
