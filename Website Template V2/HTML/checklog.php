@@ -8,8 +8,8 @@
     if($objResult)
     {
         $_SESSION['email'] = $objResult['email'];
-
-            header("Location:page1.html");
+        $_SESSION['username'] = $objResult['name'];
+        header("Location:page1.html");
 
 
     }
