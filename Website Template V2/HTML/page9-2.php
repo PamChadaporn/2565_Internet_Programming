@@ -1,3 +1,14 @@
+<?php
+    session_start();
+    $connect = mysqli_connect('localhost','root','','cinevault+');
+
+    $ticket = mysqli_query($connect, "SELECT * FROM `ticket` WHERE USERNAME=".$_SESSION['username']);
+
+    while ($row = mysqli_fetch_array($ticket)){
+        echo $row['Date'] . $row['MovieName'] . $row['Seat_number'] . $row['Showtime'] . $row['QRcode'] . $row['username'] . '<br>';
+
+    }
+?>
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -46,18 +57,17 @@
         <div id="ticket-info">
             <img src="../Assets/remove.png" width=30px boder=2 align=right>
             <img src="../Assets/Avatar2.jpg" width=200px boder=2 align=right  style="padding-right: 20px;">
-            <h1 style="color: white;">จองที่นั่งสำเร็จ</h1> 
-            <p style="color: orange;">ชื่อภาพยนตร์: </p>   
-            <p style="color: white;">อวตาร วิถีแห่งสายน้ำ</p>
-            <p style="color: orange;">ที่นั่งของคุณ: </p>
-            <p style="color: white;">D5</p>
-            <p style="color: orange;">ราคา: </p>
-            <p style="color: white;">160 บาท</p>
-            <p style="color: orange;">วันที่: </p>
-            <p style="color: white;">29/12/2565</p>
-            <p style="color: orange;">เวลา: </p>
-            <p style="color: white;">11:30 น</p> 
-           
+            <h1 style="color: white;"></h1> 
+            <p style="color: orange;"></p>   
+            <p style="color: white;"></p>
+            <p style="color: orange;">: </p>
+            <p style="color: white;"></p>
+            <p style="color: orange;"></p>
+            <p style="color: white;"></p>
+            <p style="color: orange;"></p>
+            <p style="color: white;"></p>
+            <p style="color: orange;"></p>
+            <p style="color: white;"></p> 
         </div>
        
         <div id="qr-code"><br>
