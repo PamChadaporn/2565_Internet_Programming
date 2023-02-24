@@ -17,14 +17,14 @@
                 
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.html';">หน้าแรก </a>
+                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.php';">หน้าแรก </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.html';">ภาพยนตร์</a>
+                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.php';">ภาพยนตร์</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)">
-                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.html';">
+                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.php';">
                         </a>
                     </li>
                 </ul>
@@ -186,14 +186,14 @@
                 <img class="poster" src="../Assets/LyleLyle.jpeg">
                 <div>
                   <h3>ไลล์ จระเข้ตัวพ่อ..หัวใจล้อหล่อ</h3>
-                  <p class="showtime">13:30น.</p>
+                  <p class="showtime">16:30น.</p>
                 </div>
               <div class="seat-type">
                 <img class="seat-image" src="../Assets/standdart.png" alt="Normal Seat">
                 <img class="seat-image" src="../Assets/sofa sweet.png" alt="Sofa Seat">
               </div>
               <p class="showtime">160บาท&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;180บาท</p>
-              <button class="confirm-button" onclick="location.href ='Page8-3.html';">Confirm Seat</button>
+              <button class="confirm-button" onclick="location.href ='Page8-3.php';">Confirm Seat</button>
         </div>
     </div>
   </body>

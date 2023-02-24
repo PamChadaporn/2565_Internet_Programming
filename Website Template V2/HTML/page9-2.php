@@ -16,14 +16,14 @@
                 
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.html';">หน้าแรก </a>
+                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.php';">หน้าแรก </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.html';">ภาพยนตร์</a>
+                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.php';">ภาพยนตร์</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)">
-                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.html';">
+                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.php';">
                         </a>
                     </li>
                 </ul>
@@ -45,10 +45,10 @@
 
         <div id="ticket-info">
             <img src="../Assets/remove.png" width=30px boder=2 align=right>
-            <img src="../Assets/LyleLyle.jpeg" width=200px boder=2 align=right  style="padding-right: 20px;">
+            <img src="../Assets/Avatar2.jpg" width=200px boder=2 align=right  style="padding-right: 20px;">
             <h1 style="color: white;">จองที่นั่งสำเร็จ</h1> 
             <p style="color: orange;">ชื่อภาพยนตร์: </p>   
-            <p style="color: white;">ไลล์ จระเข้ตัวพ่อ..หัวใจล้อหล่อ</p>
+            <p style="color: white;">อวตาร วิถีแห่งสายน้ำ</p>
             <p style="color: orange;">ที่นั่งของคุณ: </p>
             <p style="color: white;">D5</p>
             <p style="color: orange;">ราคา: </p>

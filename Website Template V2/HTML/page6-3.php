@@ -17,14 +17,14 @@
                 
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.html';">หน้าแรก </a>
+                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.php';">หน้าแรก </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.html';">ภาพยนตร์</a>
+                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.php';">ภาพยนตร์</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)">
-                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.html';">
+                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.php';">
                         </a>
                     </li>
                 </ul>
@@ -48,13 +48,13 @@
             <div>
                 <h1>CineVault A</h1>
                 <div class="description">
-                    <h4>คริสต์มาสแค้น | </h4>
+                    <h4>ไลล์ จระเข้ตัวพ่อ..หัวใจล้อหล่อ | </h4>
                     <h4>EN/TH | </h4>
                     <h4>2D/3D</h4>
                 </div>
                 <div class="time">
-                    <h4 onclick="location.href ='Page7-4-1.html';">13:30</h4>
-                    <h4 onclick="location.href ='Page7-4-2.html';">16:30</h4>
+                    <h4 onclick="location.href ='Page7-3-1.php';">13:30</h4>
+                    <h4 onclick="location.href ='Page7-3-2.php';">16:30</h4>
                 </div>
 
 </body>

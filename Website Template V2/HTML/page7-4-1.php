@@ -17,14 +17,14 @@
                 
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.html';">หน้าแรก </a>
+                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.php';">หน้าแรก </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.html';">ภาพยนตร์</a>
+                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.php';">ภาพยนตร์</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)">
-                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.html';">
+                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.php';">
                         </a>
                     </li>
                 </ul>
@@ -37,7 +37,6 @@
                     <img src="../Assets/userIconOrange.png" style="width: 30px;">
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    
             </div>
         </div>
     </nav>
@@ -184,9 +183,9 @@
         </div>
         <div class="choose-seat">
             <div class="movie-container">
-                <img class="poster" src="../Assets/BP2.jpg" alt="Movie 1 Poster">
+                <img class="poster" src="../Assets/ChristmasCarol.jpg">
                 <div>
-                  <h3>แบล็ค แพนเธอร์ วาคานด้าจงเจริญ</h3>
+                  <h3>คริสต์มาสแค้น</h3> 
                   <p class="showtime">13:30น.</p>
                 </div>
               <div class="seat-type">
@@ -194,7 +193,7 @@
                 <img class="seat-image" src="../Assets/sofa sweet.png" alt="Sofa Seat">
               </div>
               <p class="showtime">160บาท&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;180บาท</p>
-              <button class="confirm-button" onclick="location.href ='Page8-1.html';">Confirm Seat</button>
+              <button class="confirm-button" onclick="location.href ='Page8-4.php';">Confirm Seat</button>
         </div>
     </div>
   </body>

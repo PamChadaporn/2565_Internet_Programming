@@ -17,14 +17,14 @@
                 
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.html';">หน้าแรก </a>
+                        <a class="nav-link active" href="javascript:void(0)" onclick="location.href ='Page1.php';">หน้าแรก </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.html';">ภาพยนตร์</a>
+                        <a class="nav-link" href="javascript:void(0)" onclick="location.href ='Page2.php';">ภาพยนตร์</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)">
-                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.html';">
+                            <img src="../Assets/Ticket.png" style="width: 30px;" onclick="location.href ='Page22.php';">
                         </a>
                     </li>
                 </ul>
@@ -59,11 +59,11 @@
                 <h1 style="color: orange;">Email : </h1>
             </div>
             <br><br><br><br><br><br><br><br><br><br><br><br>
-            <button onclick="location.href ='Page9-4.html';">ชำระเงิน</button>
+            <button onclick="location.href ='Page9-2.php';">ชำระเงิน</button>
         </div>
         <div class="rightElm">
             <div class="ims">
-                <img src="../Assets/ChristmasCarol.jpg" width="250px">
+                <img src="../Assets/Avatar2.jpg" width="250px">
             </div>
             <br><br><br><br><br>
             <div class="payment">
