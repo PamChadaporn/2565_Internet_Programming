@@ -54,7 +54,7 @@
     <title>Cinevault+</title>
     </head>
         <div id="ticket-info">
-            <img src="../Assets/remove.png" width=30px boder=2 align=right>
+            <img src="../Assets/remove.png" width=30px boder=2 align=right onclick="location.href ='Page22.php';">
             <img src="../Assets/WakandaPoster.png" width=200px boder=2 align=right  style="padding-right: 20px;">
             <h1 style="color: white;"></h1> 
             <p style="color: orange;"></p>   
