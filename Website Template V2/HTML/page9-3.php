@@ -1,7 +1,6 @@
 <?php
     session_start();
-    $connect = mysqli_connect('localhost','root','','cinevault+');
-
+    include("db.php");
     $ticket = mysqli_query($connect, "SELECT * FROM `ticket` WHERE USERNAME=".$_SESSION['username']);
 
     while ($row = mysqli_fetch_array($ticket)){

@@ -1,3 +1,3 @@
 <?php
-    $con = mysqli_connect("localhost","root","","cinevault+",81)
+    $con = mysqli_connect("localhost","root","","cinevault+")
 ?>
