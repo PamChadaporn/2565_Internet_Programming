@@ -12,6 +12,7 @@
 <meta charset="UTF-8">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="../CSS/style.css">
+<script src="../JS/page7-JS.js"></script>
 <html>
 
 <body>
@@ -58,7 +59,7 @@
             <img src="../Assets/Avatar2.jpg" width=200px boder=2 align=right  style="padding-right: 20px;">
             <h1 style="color: white;"></h1> 
             <p style="color: orange;"></p>   
-            <p style="color: white;"></p>
+            <p style="color: white;"><span id="all-seats">0</span></p>
             <p style="color: orange;">: </p>
             <p style="color: white;"></p>
             <p style="color: orange;"></p>
